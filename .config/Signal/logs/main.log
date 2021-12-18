@@ -1,0 +1,278 @@
+{"level":30,"time":"2021-12-15T20:30:36.596Z","pid":42341,"hostname":"bruh","msg":"key/initialize: Generating new encryption key, since we did not find it on disk"}
+{"level":30,"time":"2021-12-15T20:30:36.599Z","pid":42341,"hostname":"bruh","msg":"config/set: Saving user config to disk"}
+{"level":30,"time":"2021-12-15T20:30:36.620Z","pid":42341,"hostname":"bruh","msg":"MainSQL: migrateSchemaVersion: Migrating from schema_version 0 to user_version 0"}
+{"level":30,"time":"2021-12-15T20:30:36.621Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateSchema:\n  Current user_version: 0;\n  Most recent db schema: 44;\n  SQLite version: 3.36.0;\n  SQLCipher version: 4.5.0 community;\n  (deprecated) schema_version: 0;\n"}
+{"level":30,"time":"2021-12-15T20:30:36.622Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion1: starting..."}
+{"level":30,"time":"2021-12-15T20:30:36.626Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion1: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.626Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion2: starting..."}
+{"level":30,"time":"2021-12-15T20:30:36.626Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion2: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.627Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion3: starting..."}
+{"level":30,"time":"2021-12-15T20:30:36.633Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion3: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.634Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion4: starting..."}
+{"level":30,"time":"2021-12-15T20:30:36.639Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion4: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.643Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion6: starting..."}
+{"level":30,"time":"2021-12-15T20:30:36.643Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion6: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.643Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion7: starting..."}
+{"level":30,"time":"2021-12-15T20:30:36.649Z","pid":42341,"hostname":"bruh","msg":"app ready"}
+{"level":30,"time":"2021-12-15T20:30:36.650Z","pid":42341,"hostname":"bruh","msg":"starting version 5.26.0"}
+{"level":30,"time":"2021-12-15T20:30:36.650Z","pid":42341,"hostname":"bruh","msg":"media access status [object Undefined] [object Undefined]"}
+{"level":30,"time":"2021-12-15T20:30:36.651Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion7: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.652Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion8: starting..."}
+{"level":30,"time":"2021-12-15T20:30:36.655Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion8: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.659Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion9: starting..."}
+{"level":30,"time":"2021-12-15T20:30:36.659Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion9: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.659Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion10: starting..."}
+{"level":30,"time":"2021-12-15T20:30:36.665Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion10: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.665Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion11: starting..."}
+{"level":30,"time":"2021-12-15T20:30:36.668Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion11: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.669Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion12: starting..."}
+{"level":30,"time":"2021-12-15T20:30:36.671Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion12: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.671Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion13: starting..."}
+{"level":30,"time":"2021-12-15T20:30:36.674Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion13: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.679Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion14: starting..."}
+{"level":30,"time":"2021-12-15T20:30:36.679Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion14: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.679Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion15: starting..."}
+{"level":30,"time":"2021-12-15T20:30:36.685Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion15: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.686Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion16: starting..."}
+{"level":30,"time":"2021-12-15T20:30:36.693Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion16: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.693Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion17: starting..."}
+{"level":30,"time":"2021-12-15T20:30:36.694Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion17: Index messages_view_once did not already exist"}
+{"level":30,"time":"2021-12-15T20:30:36.699Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion17: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.699Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion18: starting..."}
+{"level":30,"time":"2021-12-15T20:30:36.702Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion18: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.703Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion19: starting..."}
+{"level":30,"time":"2021-12-15T20:30:36.708Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion19: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.708Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion20: starting..."}
+{"level":30,"time":"2021-12-15T20:30:36.719Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion20: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.720Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion21: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.723Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion22: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.725Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion23: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.727Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion24: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.738Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion25: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.741Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion26: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.746Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion27: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.746Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion28: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.747Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion29: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.750Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion30: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.750Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion31: starting..."}
+{"level":30,"time":"2021-12-15T20:30:36.755Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion31: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.759Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion32: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.762Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion33: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.763Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion34: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.765Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion35: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.766Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion36: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.771Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion37: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.785Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion38: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.792Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion39: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.794Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion40: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.806Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion41: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.808Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion42: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.809Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion43: About to iterate through 0 conversations"}
+{"level":30,"time":"2021-12-15T20:30:36.809Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion43: About to iterate through 0 messages"}
+{"level":30,"time":"2021-12-15T20:30:36.810Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion43: Updated 0 messages"}
+{"level":30,"time":"2021-12-15T20:30:36.811Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion43: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.813Z","pid":42341,"hostname":"bruh","msg":"MainSQL: updateToSchemaVersion44: success!"}
+{"level":30,"time":"2021-12-15T20:30:36.815Z","pid":42341,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-15T20:30:36.815Z","pid":42341,"hostname":"bruh","msg":"got slow spellcheck setting true"}
+{"level":30,"time":"2021-12-15T20:30:36.816Z","pid":42341,"hostname":"bruh","msg":"getSystemTraySetting had no flags and did no DB lookups. Returning DoNotUseSystemTray"}
+{"level":50,"time":"2021-12-15T20:30:36.818Z","pid":42341,"hostname":"bruh","msg":"visibleOnAnyScreen: windowOptions didn't have valid bounds fields"}
+{"level":30,"time":"2021-12-15T20:30:36.818Z","pid":42341,"hostname":"bruh","msg":"Location reset needed"}
+{"level":30,"time":"2021-12-15T20:30:36.818Z","pid":42341,"hostname":"bruh","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":800,\"height\":610,\"minWidth\":712,\"minHeight\":550,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"backgroundColor\":\"#3a76f0\",\"webPreferences\":{\"devTools\":false,\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"contextIsolation\":false,\"preload\":\"[REDACTED]/preload.bundle.js\",\"nativeWindowOpen\":true,\"spellcheck\":true,\"backgroundThrottling\":false,\"enablePreferredSizeMode\":true},\"icon\":\"[REDACTED]/images/signal-logo-desktop-linux.png\"}"}
+{"level":30,"time":"2021-12-15T20:30:36.911Z","pid":42341,"hostname":"bruh","msg":"spellcheck: user locale: en-US"}
+{"level":30,"time":"2021-12-15T20:30:36.912Z","pid":42341,"hostname":"bruh","msg":"spellcheck: available spellchecker languages:  [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2021-12-15T20:30:36.912Z","pid":42341,"hostname":"bruh","msg":"spellcheck: setting languages to:  [\"en-US\"]"}
+{"level":30,"time":"2021-12-15T20:30:36.930Z","pid":42341,"hostname":"bruh","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-12-15T20:30:36.954Z","pid":42341,"hostname":"bruh","msg":"System tray service: created"}
+{"level":30,"time":"2021-12-15T20:30:36.954Z","pid":42341,"hostname":"bruh","msg":"System tray service: updating main window. Previously, there was not a window, and now there is"}
+{"level":30,"time":"2021-12-15T20:30:36.955Z","pid":42341,"hostname":"bruh","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2021-12-15T20:30:36.955Z","pid":42341,"hostname":"bruh","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2021-12-15T20:30:36.964Z","pid":42341,"hostname":"bruh","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2021-12-15T20:30:36.968Z","pid":42341,"hostname":"bruh","msg":"Finish ensuring permissions in 13ms"}
+{"level":30,"time":"2021-12-15T20:30:40.145Z","pid":42341,"hostname":"bruh","msg":"main window is ready-to-show"}
+{"level":30,"time":"2021-12-15T20:30:40.147Z","pid":42341,"hostname":"bruh","msg":"showing main window"}
+{"level":30,"time":"2021-12-15T20:30:40.161Z","pid":42341,"hostname":"bruh","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2021-12-15T20:30:40.674Z","pid":42341,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1918,\"height\":1060,\"x\":1,\"y\":19}"}
+{"level":30,"time":"2021-12-15T20:30:40.674Z","pid":42341,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-15T20:30:41.626Z","pid":42341,"hostname":"bruh","msg":"MainSQL: removeKnownAttachments: About to iterate through 0 messages"}
+{"level":30,"time":"2021-12-15T20:30:41.627Z","pid":42341,"hostname":"bruh","msg":"MainSQL: removeKnownAttachments: Done processing 0 messages"}
+{"level":30,"time":"2021-12-15T20:30:41.627Z","pid":42341,"hostname":"bruh","msg":"MainSQL: removeKnownAttachments: About to iterate through 0 conversations"}
+{"level":30,"time":"2021-12-15T20:30:41.627Z","pid":42341,"hostname":"bruh","msg":"MainSQL: removeKnownAttachments: Done processing 0 conversations"}
+{"level":30,"time":"2021-12-15T20:30:41.627Z","pid":42341,"hostname":"bruh","msg":"deleteAll: deleted 0 files"}
+{"level":30,"time":"2021-12-15T20:30:41.631Z","pid":42341,"hostname":"bruh","msg":"deleteAllBadges: deleted 0 files"}
+{"level":30,"time":"2021-12-15T20:30:41.634Z","pid":42341,"hostname":"bruh","msg":"MainSQL: removeKnownStickers: About to iterate through 0 stickers"}
+{"level":30,"time":"2021-12-15T20:30:41.634Z","pid":42341,"hostname":"bruh","msg":"MainSQL: removeKnownStickers: Done processing 0 stickers"}
+{"level":30,"time":"2021-12-15T20:30:41.635Z","pid":42341,"hostname":"bruh","msg":"deleteAllStickers: deleted 0 files"}
+{"level":30,"time":"2021-12-15T20:30:41.637Z","pid":42341,"hostname":"bruh","msg":"MainSQL: removeKnownDraftAttachments: About to iterate through 0 conversations"}
+{"level":30,"time":"2021-12-15T20:30:41.638Z","pid":42341,"hostname":"bruh","msg":"MainSQL: removeKnownDraftAttachments: Done processing 0 conversations"}
+{"level":30,"time":"2021-12-15T20:30:41.638Z","pid":42341,"hostname":"bruh","msg":"deleteAllDraftAttachments: deleted 0 files"}
+{"level":30,"time":"2021-12-15T20:30:41.639Z","pid":42341,"hostname":"bruh","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2021-12-15T20:30:41.640Z","pid":42341,"hostname":"bruh","msg":"sending `database-ready`"}
+{"level":30,"time":"2021-12-15T20:30:41.656Z","pid":42341,"hostname":"bruh","msg":"Ensuring file permissions for 56 files"}
+{"level":50,"time":"2021-12-15T20:30:41.660Z","pid":42341,"hostname":"bruh","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/SingletonCookie'"}
+{"level":50,"time":"2021-12-15T20:30:41.660Z","pid":42341,"hostname":"bruh","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/SingletonLock'"}
+{"level":30,"time":"2021-12-15T20:30:41.666Z","pid":42341,"hostname":"bruh","msg":"Finish ensuring permissions in 27ms"}
+{"level":30,"time":"2021-12-15T20:30:41.752Z","pid":42341,"hostname":"bruh","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2021-12-15T20:34:03.990Z","pid":42341,"hostname":"bruh","msg":"App loaded - time: 207389"}
+{"level":30,"time":"2021-12-15T20:34:03.990Z","pid":42341,"hostname":"bruh","msg":"SQL init - time: 214"}
+{"level":30,"time":"2021-12-15T20:34:03.990Z","pid":42341,"hostname":"bruh","msg":"Preload - time: 1913"}
+{"level":30,"time":"2021-12-15T20:34:03.990Z","pid":42341,"hostname":"bruh","msg":"WebSocket connect - time: 203927"}
+{"level":30,"time":"2021-12-15T20:34:03.990Z","pid":42341,"hostname":"bruh","msg":"Processed count: 0"}
+{"level":30,"time":"2021-12-15T20:34:03.990Z","pid":42341,"hostname":"bruh","msg":"Messages per second: 0"}
+{"level":30,"time":"2021-12-15T20:34:10.798Z","pid":42341,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1918,\"height\":1060,\"x\":1,\"y\":19}"}
+{"level":30,"time":"2021-12-15T20:34:10.799Z","pid":42341,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-15T20:36:36.002Z","pid":42341,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":862,\"height\":1060,\"x\":1056,\"y\":18}"}
+{"level":30,"time":"2021-12-15T20:36:36.002Z","pid":42341,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-15T20:36:36.581Z","pid":42341,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":862,\"height\":1060,\"x\":1057,\"y\":19}"}
+{"level":30,"time":"2021-12-15T20:36:36.581Z","pid":42341,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-15T20:36:38.159Z","pid":42341,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1918,\"height\":1060,\"x\":0,\"y\":18}"}
+{"level":30,"time":"2021-12-15T20:36:38.160Z","pid":42341,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-15T20:36:39.951Z","pid":42341,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":862,\"height\":1060,\"x\":1056,\"y\":18}"}
+{"level":30,"time":"2021-12-15T20:36:39.952Z","pid":42341,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-15T20:36:47.438Z","pid":42341,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":862,\"height\":1060,\"x\":1057,\"y\":19}"}
+{"level":30,"time":"2021-12-15T20:36:47.439Z","pid":42341,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-15T20:38:58.164Z","pid":42341,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":862,\"height\":1060,\"x\":-1727,\"y\":19}"}
+{"level":30,"time":"2021-12-15T20:38:58.164Z","pid":42341,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-15T20:38:59.523Z","pid":42341,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":862,\"height\":1060,\"x\":1057,\"y\":19}"}
+{"level":30,"time":"2021-12-15T20:38:59.523Z","pid":42341,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-15T20:39:00.522Z","pid":42341,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":862,\"height\":1060,\"x\":1057,\"y\":19}"}
+{"level":30,"time":"2021-12-15T20:39:00.522Z","pid":42341,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-15T20:39:02.098Z","pid":42341,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":862,\"height\":1060,\"x\":-1727,\"y\":19}"}
+{"level":30,"time":"2021-12-15T20:39:02.098Z","pid":42341,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-15T20:39:03.678Z","pid":42341,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":862,\"height\":1060,\"x\":1057,\"y\":19}"}
+{"level":30,"time":"2021-12-15T20:39:03.678Z","pid":42341,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-15T20:39:04.371Z","pid":42341,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":862,\"height\":1060,\"x\":-1727,\"y\":19}"}
+{"level":30,"time":"2021-12-15T20:39:04.371Z","pid":42341,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-15T20:41:32.714Z","pid":42341,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":862,\"height\":1060,\"x\":1057,\"y\":19}"}
+{"level":30,"time":"2021-12-15T20:41:32.714Z","pid":42341,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-15T20:41:34.101Z","pid":42341,"hostname":"bruh","msg":"close event {\"readyForShutdown\":false,\"shouldQuit\":false}"}
+{"level":30,"time":"2021-12-15T20:41:34.102Z","pid":42341,"hostname":"bruh","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2021-12-15T20:41:34.102Z","pid":42341,"hostname":"bruh","msg":"requestShutdown: Requesting close of mainWindow..."}
+{"level":30,"time":"2021-12-15T20:41:34.130Z","pid":42341,"hostname":"bruh","msg":"requestShutdown: Response received"}
+{"level":30,"time":"2021-12-15T20:41:34.135Z","pid":42341,"hostname":"bruh","msg":"before-quit event {\"readyForShutdown\":true,\"shouldQuit\":false}"}
+{"level":30,"time":"2021-12-15T20:41:34.136Z","pid":42341,"hostname":"bruh","msg":"close event {\"readyForShutdown\":true,\"shouldQuit\":true}"}
+{"level":30,"time":"2021-12-15T20:41:34.144Z","pid":42341,"hostname":"bruh","msg":"System tray service: updating main window. Previously, there was a window, and now there is not"}
+{"level":30,"time":"2021-12-17T14:32:52.877Z","pid":29226,"hostname":"bruh","msg":"MainSQL: updateSchema:\n  Current user_version: 44;\n  Most recent db schema: 44;\n  SQLite version: 3.36.0;\n  SQLCipher version: 4.5.0 community;\n  (deprecated) schema_version: 210;\n"}
+{"level":30,"time":"2021-12-17T14:32:52.882Z","pid":29226,"hostname":"bruh","msg":"app ready"}
+{"level":30,"time":"2021-12-17T14:32:52.883Z","pid":29226,"hostname":"bruh","msg":"starting version 5.26.0"}
+{"level":30,"time":"2021-12-17T14:32:52.883Z","pid":29226,"hostname":"bruh","msg":"media access status [object Undefined] [object Undefined]"}
+{"level":30,"time":"2021-12-17T14:32:52.885Z","pid":29226,"hostname":"bruh","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-12-17T14:32:52.886Z","pid":29226,"hostname":"bruh","msg":"getSystemTraySetting had no flags and did no DB lookups. Returning DoNotUseSystemTray"}
+{"level":30,"time":"2021-12-17T14:32:52.887Z","pid":29226,"hostname":"bruh","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":862,\"height\":1060,\"minWidth\":712,\"minHeight\":550,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"backgroundColor\":\"#3a76f0\",\"webPreferences\":{\"devTools\":false,\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"contextIsolation\":false,\"preload\":\"[REDACTED]/preload.bundle.js\",\"nativeWindowOpen\":true,\"spellcheck\":true,\"backgroundThrottling\":false,\"enablePreferredSizeMode\":true},\"icon\":\"[REDACTED]/images/signal-logo-desktop-linux.png\",\"x\":1057,\"y\":19}"}
+{"level":30,"time":"2021-12-17T14:32:52.938Z","pid":29226,"hostname":"bruh","msg":"spellcheck: user locale: en-US"}
+{"level":30,"time":"2021-12-17T14:32:52.938Z","pid":29226,"hostname":"bruh","msg":"spellcheck: available spellchecker languages:  [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2021-12-17T14:32:52.938Z","pid":29226,"hostname":"bruh","msg":"spellcheck: setting languages to:  [\"en-US\"]"}
+{"level":30,"time":"2021-12-17T14:32:52.949Z","pid":29226,"hostname":"bruh","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-12-17T14:32:52.962Z","pid":29226,"hostname":"bruh","msg":"System tray service: created"}
+{"level":30,"time":"2021-12-17T14:32:52.962Z","pid":29226,"hostname":"bruh","msg":"System tray service: updating main window. Previously, there was not a window, and now there is"}
+{"level":30,"time":"2021-12-17T14:32:52.962Z","pid":29226,"hostname":"bruh","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2021-12-17T14:32:52.963Z","pid":29226,"hostname":"bruh","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2021-12-17T14:32:52.968Z","pid":29226,"hostname":"bruh","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2021-12-17T14:32:52.969Z","pid":29226,"hostname":"bruh","msg":"Finish ensuring permissions in 6ms"}
+{"level":30,"time":"2021-12-17T14:32:54.294Z","pid":29226,"hostname":"bruh","msg":"main window is ready-to-show"}
+{"level":30,"time":"2021-12-17T14:32:54.295Z","pid":29226,"hostname":"bruh","msg":"showing main window"}
+{"level":30,"time":"2021-12-17T14:32:54.311Z","pid":29226,"hostname":"bruh","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2021-12-17T14:32:54.828Z","pid":29226,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1054,\"height\":1060,\"x\":1,\"y\":19}"}
+{"level":30,"time":"2021-12-17T14:32:54.829Z","pid":29226,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-17T14:32:54.934Z","pid":29226,"hostname":"bruh","msg":"MainSQL: removeKnownAttachments: About to iterate through 3 messages"}
+{"level":30,"time":"2021-12-17T14:32:54.934Z","pid":29226,"hostname":"bruh","msg":"MainSQL: removeKnownAttachments: Done processing 3 messages"}
+{"level":30,"time":"2021-12-17T14:32:54.935Z","pid":29226,"hostname":"bruh","msg":"MainSQL: removeKnownAttachments: About to iterate through 2 conversations"}
+{"level":30,"time":"2021-12-17T14:32:54.935Z","pid":29226,"hostname":"bruh","msg":"MainSQL: removeKnownAttachments: Done processing 2 conversations"}
+{"level":30,"time":"2021-12-17T14:32:54.935Z","pid":29226,"hostname":"bruh","msg":"deleteAll: deleted 0 files"}
+{"level":30,"time":"2021-12-17T14:32:54.938Z","pid":29226,"hostname":"bruh","msg":"deleteAllBadges: deleted 0 files"}
+{"level":30,"time":"2021-12-17T14:32:54.954Z","pid":29226,"hostname":"bruh","msg":"MainSQL: removeKnownStickers: About to iterate through 219 stickers"}
+{"level":30,"time":"2021-12-17T14:32:54.955Z","pid":29226,"hostname":"bruh","msg":"MainSQL: removeKnownStickers: Done processing 219 stickers"}
+{"level":30,"time":"2021-12-17T14:32:54.955Z","pid":29226,"hostname":"bruh","msg":"deleteAllStickers: deleted 0 files"}
+{"level":30,"time":"2021-12-17T14:32:54.957Z","pid":29226,"hostname":"bruh","msg":"MainSQL: removeKnownDraftAttachments: About to iterate through 2 conversations"}
+{"level":30,"time":"2021-12-17T14:32:54.958Z","pid":29226,"hostname":"bruh","msg":"MainSQL: removeKnownDraftAttachments: Done processing 2 conversations"}
+{"level":30,"time":"2021-12-17T14:32:54.958Z","pid":29226,"hostname":"bruh","msg":"deleteAllDraftAttachments: deleted 0 files"}
+{"level":30,"time":"2021-12-17T14:32:54.959Z","pid":29226,"hostname":"bruh","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2021-12-17T14:32:54.959Z","pid":29226,"hostname":"bruh","msg":"sending `database-ready`"}
+{"level":30,"time":"2021-12-17T14:32:54.974Z","pid":29226,"hostname":"bruh","msg":"Ensuring file permissions for 436 files"}
+{"level":50,"time":"2021-12-17T14:32:54.977Z","pid":29226,"hostname":"bruh","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/SingletonCookie'"}
+{"level":50,"time":"2021-12-17T14:32:54.977Z","pid":29226,"hostname":"bruh","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/SingletonLock'"}
+{"level":30,"time":"2021-12-17T14:32:54.991Z","pid":29226,"hostname":"bruh","msg":"Finish ensuring permissions in 32ms"}
+{"level":30,"time":"2021-12-17T14:32:55.572Z","pid":29226,"hostname":"bruh","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2021-12-17T14:32:55.590Z","pid":29226,"hostname":"bruh","msg":"App loaded - time: 2731"}
+{"level":30,"time":"2021-12-17T14:32:55.590Z","pid":29226,"hostname":"bruh","msg":"SQL init - time: 20"}
+{"level":30,"time":"2021-12-17T14:32:55.590Z","pid":29226,"hostname":"bruh","msg":"Preload - time: 765"}
+{"level":30,"time":"2021-12-17T14:32:55.590Z","pid":29226,"hostname":"bruh","msg":"WebSocket connect - time: 1065"}
+{"level":30,"time":"2021-12-17T14:32:55.590Z","pid":29226,"hostname":"bruh","msg":"Processed count: 4"}
+{"level":30,"time":"2021-12-17T14:32:55.590Z","pid":29226,"hostname":"bruh","msg":"Messages per second: 4.439511653718091"}
+{"level":30,"time":"2021-12-17T14:34:50.236Z","pid":29226,"hostname":"bruh","msg":"close event {\"readyForShutdown\":false,\"shouldQuit\":false}"}
+{"level":30,"time":"2021-12-17T14:34:50.236Z","pid":29226,"hostname":"bruh","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2021-12-17T14:34:50.237Z","pid":29226,"hostname":"bruh","msg":"requestShutdown: Requesting close of mainWindow..."}
+{"level":30,"time":"2021-12-17T14:34:50.250Z","pid":29226,"hostname":"bruh","msg":"requestShutdown: Response received"}
+{"level":30,"time":"2021-12-17T14:34:50.252Z","pid":29226,"hostname":"bruh","msg":"before-quit event {\"readyForShutdown\":true,\"shouldQuit\":false}"}
+{"level":30,"time":"2021-12-17T14:34:50.252Z","pid":29226,"hostname":"bruh","msg":"close event {\"readyForShutdown\":true,\"shouldQuit\":true}"}
+{"level":30,"time":"2021-12-17T14:34:50.262Z","pid":29226,"hostname":"bruh","msg":"System tray service: updating main window. Previously, there was a window, and now there is not"}
+{"level":30,"time":"2021-12-18T16:34:17.557Z","pid":5127,"hostname":"bruh","msg":"MainSQL: updateSchema:\n  Current user_version: 44;\n  Most recent db schema: 44;\n  SQLite version: 3.36.0;\n  SQLCipher version: 4.5.0 community;\n  (deprecated) schema_version: 210;\n"}
+{"level":30,"time":"2021-12-18T16:34:17.566Z","pid":5127,"hostname":"bruh","msg":"app ready"}
+{"level":30,"time":"2021-12-18T16:34:17.567Z","pid":5127,"hostname":"bruh","msg":"starting version 5.26.0"}
+{"level":30,"time":"2021-12-18T16:34:17.567Z","pid":5127,"hostname":"bruh","msg":"media access status [object Undefined] [object Undefined]"}
+{"level":30,"time":"2021-12-18T16:34:17.571Z","pid":5127,"hostname":"bruh","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-12-18T16:34:17.574Z","pid":5127,"hostname":"bruh","msg":"getSystemTraySetting had no flags and did no DB lookups. Returning DoNotUseSystemTray"}
+{"level":30,"time":"2021-12-18T16:34:17.575Z","pid":5127,"hostname":"bruh","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":1054,\"height\":1060,\"minWidth\":712,\"minHeight\":550,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"backgroundColor\":\"#3a76f0\",\"webPreferences\":{\"devTools\":false,\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"contextIsolation\":false,\"preload\":\"[REDACTED]/preload.bundle.js\",\"nativeWindowOpen\":true,\"spellcheck\":true,\"backgroundThrottling\":false,\"enablePreferredSizeMode\":true},\"icon\":\"[REDACTED]/images/signal-logo-desktop-linux.png\",\"x\":1,\"y\":19}"}
+{"level":30,"time":"2021-12-18T16:34:17.679Z","pid":5127,"hostname":"bruh","msg":"spellcheck: user locale: en-US"}
+{"level":30,"time":"2021-12-18T16:34:17.680Z","pid":5127,"hostname":"bruh","msg":"spellcheck: available spellchecker languages:  [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2021-12-18T16:34:17.680Z","pid":5127,"hostname":"bruh","msg":"spellcheck: setting languages to:  [\"en-US\"]"}
+{"level":30,"time":"2021-12-18T16:34:17.700Z","pid":5127,"hostname":"bruh","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2021-12-18T16:34:17.726Z","pid":5127,"hostname":"bruh","msg":"System tray service: created"}
+{"level":30,"time":"2021-12-18T16:34:17.727Z","pid":5127,"hostname":"bruh","msg":"System tray service: updating main window. Previously, there was not a window, and now there is"}
+{"level":30,"time":"2021-12-18T16:34:17.727Z","pid":5127,"hostname":"bruh","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2021-12-18T16:34:17.728Z","pid":5127,"hostname":"bruh","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2021-12-18T16:34:17.738Z","pid":5127,"hostname":"bruh","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2021-12-18T16:34:17.741Z","pid":5127,"hostname":"bruh","msg":"Finish ensuring permissions in 12ms"}
+{"level":30,"time":"2021-12-18T16:34:20.750Z","pid":5127,"hostname":"bruh","msg":"main window is ready-to-show"}
+{"level":30,"time":"2021-12-18T16:34:20.751Z","pid":5127,"hostname":"bruh","msg":"showing main window"}
+{"level":30,"time":"2021-12-18T16:34:20.789Z","pid":5127,"hostname":"bruh","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2021-12-18T16:34:21.309Z","pid":5127,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1054,\"height\":1060,\"x\":1,\"y\":19}"}
+{"level":30,"time":"2021-12-18T16:34:21.309Z","pid":5127,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-18T16:34:22.057Z","pid":5127,"hostname":"bruh","msg":"sending `database-ready`"}
+{"level":30,"time":"2021-12-18T16:34:22.578Z","pid":5127,"hostname":"bruh","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2021-12-18T16:34:22.616Z","pid":5127,"hostname":"bruh","msg":"App loaded - time: 5102"}
+{"level":30,"time":"2021-12-18T16:34:22.616Z","pid":5127,"hostname":"bruh","msg":"SQL init - time: 44"}
+{"level":30,"time":"2021-12-18T16:34:22.616Z","pid":5127,"hostname":"bruh","msg":"Preload - time: 1777"}
+{"level":30,"time":"2021-12-18T16:34:22.616Z","pid":5127,"hostname":"bruh","msg":"WebSocket connect - time: 1862"}
+{"level":30,"time":"2021-12-18T16:34:22.616Z","pid":5127,"hostname":"bruh","msg":"Processed count: 0"}
+{"level":30,"time":"2021-12-18T16:34:22.616Z","pid":5127,"hostname":"bruh","msg":"Messages per second: 0"}
+{"level":30,"time":"2021-12-18T16:34:35.674Z","pid":5127,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":862,\"height\":352,\"x\":1056,\"y\":18}"}
+{"level":30,"time":"2021-12-18T16:34:35.675Z","pid":5127,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-18T16:34:37.039Z","pid":5127,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":862,\"height\":550,\"x\":1056,\"y\":18}"}
+{"level":30,"time":"2021-12-18T16:34:37.039Z","pid":5127,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-18T16:34:38.640Z","pid":5127,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":862,\"height\":352,\"x\":1056,\"y\":18}"}
+{"level":30,"time":"2021-12-18T16:34:38.640Z","pid":5127,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-18T16:34:41.150Z","pid":5127,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":862,\"height\":550,\"x\":1056,\"y\":18}"}
+{"level":30,"time":"2021-12-18T16:34:41.150Z","pid":5127,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-18T16:34:41.779Z","pid":5127,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":862,\"height\":352,\"x\":1056,\"y\":18}"}
+{"level":30,"time":"2021-12-18T16:34:41.779Z","pid":5127,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-18T16:34:42.385Z","pid":5127,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":862,\"height\":550,\"x\":1056,\"y\":18}"}
+{"level":30,"time":"2021-12-18T16:34:42.386Z","pid":5127,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-18T16:34:43.321Z","pid":5127,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":862,\"height\":352,\"x\":1056,\"y\":18}"}
+{"level":30,"time":"2021-12-18T16:34:43.321Z","pid":5127,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-18T16:34:46.825Z","pid":5127,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1054,\"height\":352,\"x\":864,\"y\":18}"}
+{"level":30,"time":"2021-12-18T16:34:46.825Z","pid":5127,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-18T16:34:48.351Z","pid":5127,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1150,\"height\":352,\"x\":767,\"y\":18}"}
+{"level":30,"time":"2021-12-18T16:34:48.352Z","pid":5127,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-18T16:35:01.489Z","pid":5127,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1150,\"height\":529,\"x\":768,\"y\":19}"}
+{"level":30,"time":"2021-12-18T16:35:01.489Z","pid":5127,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-18T16:35:10.092Z","pid":5127,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1150,\"height\":529,\"x\":768,\"y\":19}"}
+{"level":30,"time":"2021-12-18T16:35:10.093Z","pid":5127,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-18T16:35:13.910Z","pid":5127,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1150,\"height\":352,\"x\":767,\"y\":372}"}
+{"level":30,"time":"2021-12-18T16:35:13.910Z","pid":5127,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-18T16:35:16.819Z","pid":5127,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1150,\"height\":352,\"x\":768,\"y\":373}"}
+{"level":30,"time":"2021-12-18T16:35:16.819Z","pid":5127,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-18T16:35:19.019Z","pid":5127,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1150,\"height\":529,\"x\":768,\"y\":19}"}
+{"level":30,"time":"2021-12-18T16:35:19.019Z","pid":5127,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-18T16:35:29.142Z","pid":5127,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":765,\"height\":1060,\"x\":1,\"y\":19}"}
+{"level":30,"time":"2021-12-18T16:35:29.142Z","pid":5127,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-18T16:35:32.451Z","pid":5127,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1054,\"height\":1060,\"x\":0,\"y\":18}"}
+{"level":30,"time":"2021-12-18T16:35:32.452Z","pid":5127,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-18T16:35:33.009Z","pid":5127,"hostname":"bruh","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1054,\"height\":1060,\"x\":1,\"y\":19}"}
+{"level":30,"time":"2021-12-18T16:35:33.009Z","pid":5127,"hostname":"bruh","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2021-12-18T16:35:33.036Z","pid":5127,"hostname":"bruh","msg":"close event {\"readyForShutdown\":false,\"shouldQuit\":false}"}
+{"level":30,"time":"2021-12-18T16:35:33.037Z","pid":5127,"hostname":"bruh","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2021-12-18T16:35:33.037Z","pid":5127,"hostname":"bruh","msg":"requestShutdown: Requesting close of mainWindow..."}
+{"level":30,"time":"2021-12-18T16:35:33.059Z","pid":5127,"hostname":"bruh","msg":"requestShutdown: Response received"}
+{"level":30,"time":"2021-12-18T16:35:33.070Z","pid":5127,"hostname":"bruh","msg":"before-quit event {\"readyForShutdown\":true,\"shouldQuit\":false}"}
+{"level":30,"time":"2021-12-18T16:35:33.071Z","pid":5127,"hostname":"bruh","msg":"close event {\"readyForShutdown\":true,\"shouldQuit\":true}"}
+{"level":30,"time":"2021-12-18T16:35:33.089Z","pid":5127,"hostname":"bruh","msg":"System tray service: updating main window. Previously, there was a window, and now there is not"}

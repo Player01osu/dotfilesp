@@ -1,0 +1,7 @@
+2021/12/17-09:32:54.660 72bc Reusing MANIFEST /home/bruh/.config/Signal/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2021/12/17-09:32:54.660 72bc Recovering log #4
+2021/12/17-09:32:54.660 72bc Reusing old log /home/bruh/.config/Signal/IndexedDB/file__0.indexeddb.leveldb/000004.log 
+2021/12/17-09:32:54.896 72c0 Level-0 table #8: started
+2021/12/17-09:32:54.897 72c0 Level-0 table #8: 472 bytes OK
+2021/12/17-09:32:54.899 72c0 Delete type=0 #4
+2021/12/17-09:32:54.899 72c0 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

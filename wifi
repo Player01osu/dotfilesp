@@ -1,0 +1,19 @@
+﻿1. Get NetworkManager ofc
+2. Cd and edit with sudo /etc/NetworkManager/NetworkManager.conf
+   1. Sudo vim /etc/NetworkManager/NetworkManager.conf
+3. Add this
+[device]
+wifi.scan-rand-mac-address=no
+4. sudo systemctl restart NetworkManager
+5. sudo systemctl start wpa_supplicant.service
+6. sudo nmcli dev wifi connect "HomePs91" password "1W87L&&7HPSCB1mM" hidden yes
+And there u go lol
+
+
+nmcli device wifi connect "OnePlus 7T-7c43" password f9ae4953d896
+
+a
+
+sudo nmcli dev wifi connect "HomePs91" password "1W87L&&7HPSCB1mM" hidden yes
+https://unix.stackexchange.com/questions/158328/network-manager-not-listing-wifi#282669
+https://askubuntu.com/questions/1028578/nmcli-the-wifi-network-could-not-be-found
