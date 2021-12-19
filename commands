@@ -1,0 +1,119 @@
+## which drive u wanna install on
+lsblk
+
+## create partitions
+fdisk /dev/sdX (nvme0n1)
+
+## delete partitions
+d
+
+## create efi partition
+p
+## set to 1G
+
+# create root partition
+p
+## size of full system, probably want it more than 30G, so like, maybe 60G
+
+# create home partition
+p
+## make it rest of space
+
+## write to drive
+w
+
+## make root and home partition ext4 (or btrfs if ur a gamer)
+mkfs.ext4 /dev/sdX3 (nvme0n1p3)
+mkfs.ext4 /dev/sdX2 (nvme0n1p2)
+
+## make uefi partition fat part
+mkfs.fat -F32 /sdX1 (nvme0n1p1)
+
+## mount root part in /mnt
+mount /dev/sdX2 /mnt (nvme0n1p2)
+
+## make dir for home and boot
+mkdir /mnt/home
+mkdir /mnt/boot
+
+## mount boot and home parts. into respective dirs
+mount /dev/sdX1 /mnt/boot (nvme0n1p1)
+mount /dev/sdX3 /mnt/home (nvme0n1p3)
+
+## install base operating system
+basestrap /mnt base base-devel runit elogind-runit linux linux-firmware vim
+
+## BOOTLOADER TIME
+## remount stuff to correct partition
+fstabgen -U /mnt >> /mnt/etc/fstab
+
+## chroot into /mnt (duh)
+artix-chroot /mnt
+
+## bash cuz bash
+bash
+
+## edit mirror lists
+vim /etc/pacman.d/mirrorlist
+
+## symlink to set timezone
+ln -sf /usr/share/zoneinfo/America/Detroit /etc/localtime
+
+## set hwclock
+hwclock --systohc
+
+## locale gen
+vim /etc/locale.gen
+## uncomment ur locale (en_US)
+
+## generate locale
+locale-gen
+
+## manually set locale
+vim /etc/locale.conf
+
+## ADD
+LANG=en_US.UTF-8
+
+## installing some epic packages
+pacman -S networkmanager networkmanager-runit sudo git
+
+## starting services automatically runit
+ln -s /etc/runit/sv/NetworkManager/ /etc/runit/runsvdir/current
+## typically its done by "ln -s /etc/runit/SERVICE-NAME /run/runit/service
+
+## HOST NAMESSSS
+vim /etc/hostname
+## put something epic in here, like bruh
+
+## host domain
+vim /etc/hosts
+
+## put these for host domains
+127.0.0.1   localhost
+::1         localhost
+127.0.1.1   bruh.localdomain bruh
+
+## bootloader time
+pacman -S grub efibootmgr
+
+## grub setup
+grub-install --target=x86_84-efi --efi-directory=/boot --bootloader-id=GRUB
+
+## generate grub config file
+grub-mkconfig -o /boot/grub/grub.cfg
+
+## set usr and passwd
+passwd
+
+useradd -m USERNAME
+passwd USERNAME
+usermod -aG wheel,audio,video,optical,storage USERNAME
+
+## sudo setup
+EDITOR=vim visudo
+## uncomment %wheel=ewiofojeej
+
+## exit unmount
+exit
+umount /mnt (sometimes umount -f /mnt)
