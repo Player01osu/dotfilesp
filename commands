@@ -149,3 +149,12 @@ git clone https://git.suckless.org/dwm
 
 ## configs for dwm
 cp ~/dotfilesp/dwm/* ~/dwm/
+
+## zsh
+sudo pacman -S zsh
+zsh
+## run through thingy
+
+## change default shell to zsh
+chsh $USER
+/bin/zsh
