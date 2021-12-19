@@ -76,7 +76,7 @@ vim /etc/locale.conf
 LANG=en_US.UTF-8
 
 ## installing some epic packages
-pacman -S networkmanager networkmanager-runit sudo git wget
+pacman -S networkmanager networkmanager-runit sudo git wget libxft
 
 ## starting services automatically runit
 ln -s /etc/runit/sv/NetworkManager/ /etc/runit/runsvdir/current
@@ -149,6 +149,9 @@ git clone https://git.suckless.org/dwm
 
 ## configs for dwm
 cp ~/dotfilesp/dwm/* ~/dwm/
+
+## get dmenu
+git clone https://git.suckless.org/dmenu
 
 ## zsh
 sudo pacman -S zsh
