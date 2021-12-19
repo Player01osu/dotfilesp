@@ -76,7 +76,7 @@ vim /etc/locale.conf
 LANG=en_US.UTF-8
 
 ## installing some epic packages
-pacman -S networkmanager networkmanager-runit sudo git
+pacman -S networkmanager networkmanager-runit sudo git wget
 
 ## starting services automatically runit
 ln -s /etc/runit/sv/NetworkManager/ /etc/runit/runsvdir/current
@@ -117,3 +117,35 @@ EDITOR=vim visudo
 ## exit unmount
 exit
 umount /mnt (sometimes umount -f /mnt)
+
+reboot
+
+## install amd drivers and xorg stuffs
+sudo pacman -S xf86-video-amdgpu feh xorg xorg-xinit xorg-xinput alacritty playerctl $DRI
+
+## install fonts
+mkdir -p ~/.local/share/fonts
+mkdir -p ~/.srcs
+cp -r ~/dotfilesp/fonts/* ~/.local/share/fonts/
+fc-cache -f
+
+## installing paru
+git clone https://aur.archlinux.org/paru.git ~/.srcs/paru
+cd ~/.srcs/paru/ && makepkg -si
+
+## install aur stuff
+paru -S picom-jonaburg-git acpi wmctrl jq xclip maim
+
+## config files
+mkdir -p ~/.config/
+
+cp -r ~/dotfilesp/.config/BLAHBLAHBLAH ~/.config
+.
+.
+.
+
+## dwm
+git clone https://git.suckless.org/dwm
+
+## configs for dwm
+cp ~/dotfilesp/dwm/* ~/dwm/
