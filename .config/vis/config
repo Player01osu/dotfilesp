@@ -1,0 +1,5 @@
+audio.sources=pulse
+
+visualizer.spectrum.color.scheme=rainbow
+color.scheme=blue
+

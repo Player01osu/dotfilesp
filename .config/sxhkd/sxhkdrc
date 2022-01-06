@@ -1,0 +1,15 @@
+
+alt + t ; {h,j,d,p,s}
+	{alacritty -e htop,brave &,LIBVA_DRIVER_NAME=i915 discord --enable-gpu-rasterization &,alacritty -e pulsemixer,steam &}
+
+alt + r ; {p}
+    {~/bin/rpulse}
+
+super + shift + m
+    alacritty -e mocp
+
+super + alt + w
+    togglewheel
+
+XF86Sleep
+    betterlockscreen -l blur

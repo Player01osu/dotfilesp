@@ -1,0 +1,5 @@
+#!/bin/sh
+
+runwheel=$(pgrep imwheel)
+
+kill $runwheel || imwheel

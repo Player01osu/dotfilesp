@@ -1,0 +1,10 @@
+#!/bin/sh
+for (( ; ; ))
+do
+    sleep 2
+    screensl=$(echo "$DISPLAY" | grep :0.0)
+        if [ "$screensl" = :0.0 ];
+    then
+        echo "workkky"
+fi
+done
