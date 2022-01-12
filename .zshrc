@@ -89,6 +89,12 @@ alias block="betterlockscreen -l blur"
 alias reboot="loginctl reboot"
 alias poweroff="loginctl poweroff"
 alias fortnite="osu"
+alias nvimconf="nvim ~/.config/nvim/init.vim"
+alias vim="nvim"
+alias dwm-conf="cd ~/gitclone/suckless/dwm-fork/ && nvim ~/gitclone/suckless/dwm-fork/config.def.h"
+alias osu-dir="cd ~/.local/share/osu-wine/OSU/"
+alias skool="cd ~/Documents/School/"
+alias xinitrc="nvim ~/.xinitrc"
 neofetch
 #acpi
 
