@@ -1,8 +1,19 @@
+# login to root live media
+username: root
+password: artix
+
 ## which drive u wanna install on
 lsblk
 
+## edit mirror lists
+vi /etc/pacman.d/mirrorlist
+
+## make sure all packages are available
+pacman -S --needed dosfstools mtools ntfs-3g openssh openssh-runit
+ln -s /etc/runit/sv/sshd/ /etc/runit/runsvdir/current
+
 ## create partitions
-fdisk /dev/sdX (nvme0n1)
+fdisk /dev/sdX (nvme0n1) # or cfdisk
 
 ## delete partitions
 d
@@ -33,28 +44,41 @@ mkfs.fat -F32 /sdX1 (nvme0n1p1)
 mount /dev/sdX2 /mnt (nvme0n1p2)
 
 ## make dir for home and boot
-mkdir /mnt/home
-mkdir /mnt/boot
+mkdir -p /mnt/home
+mkdir -p /mnt/boot/EFI
 
 ## mount boot and home parts. into respective dirs
 mount /dev/sdX1 /mnt/boot (nvme0n1p1)
 mount /dev/sdX3 /mnt/home (nvme0n1p3)
 
+######################################################################################################
+################### DO NOT MOUNT DRIVE AT THIS STAGE IF REINSTALLING #################################
+######################################################################################################
+
+# for dual boot using windows efi, mount /dev/sdc2 /mnt/boot/EFI #
+# and mount /dev/nvme0n1p4 /mnt/boot #
+
+######################################################################################################
+################### DO NOT MOUNT DRIVE AT THIS STAGE IF REINSTALLING #################################
+######################################################################################################
+
 ## install base operating system
-basestrap /mnt base base-devel runit elogind-runit linux linux-firmware vim
+basestrap /mnt base base-devel runit elogind-runit linux linux-firmware neovim intel-ucode
 
 ## BOOTLOADER TIME
-## remount stuff to correct partition
+## generate fstab, partition to uuid
+## remember to mount all drives u wanna mount first, then fstabgen
+# for dual boot using windows efi, mount /dev/sdc2 /mnt/boot/EFI #
+# and mount /dev/nvme0n1p4 /mnt/boot #
 fstabgen -U /mnt >> /mnt/etc/fstab
+
+# if reinstalling, unmount /mnt/home for now
 
 ## chroot into /mnt (duh)
 artix-chroot /mnt
 
 ## bash cuz bash
 bash
-
-## edit mirror lists
-vim /etc/pacman.d/mirrorlist
 
 ## symlink to set timezone
 ln -sf /usr/share/zoneinfo/America/Detroit /etc/localtime
@@ -76,26 +100,36 @@ vim /etc/locale.conf
 LANG=en_US.UTF-8
 
 ## installing some epic packages
-pacman -S networkmanager networkmanager-runit sudo git wget libxft
+pacman -S dhcpcd dhcpcd-runit doas git wget libxft grub efibootmgr os-prober mtools dosfstools linux-headers ntfs-3g openssh openssh-runit 
+
+## doas config
+nvim /etc/doas.conf
+
+## add this
+permit persist :wheel
 
 ## starting services automatically runit
-ln -s /etc/runit/sv/NetworkManager/ /etc/runit/runsvdir/current
+ln -s /etc/runit/sv/dhcpcd/ /etc/runit/runsvdir/current
+ln -s /etc/runit/sv/sshd/ /etc/runit/runsvdir/current
 ## typically its done by "ln -s /etc/runit/SERVICE-NAME /run/runit/service
 
 ## HOST NAMESSSS
-vim /etc/hostname
+nvim /etc/hostname
 ## put something epic in here, like bruh
 
 ## host domain
-vim /etc/hosts
+nvim /etc/hosts
 
 ## put these for host domains
 127.0.0.1   localhost
 ::1         localhost
-127.0.1.1   bruh.localdomain bruh
+127.0.1.1   Player01.localdomain Player01
 
-## bootloader time
-pacman -S grub efibootmgr
+## edit grub config
+nvim /etc/default/grub
+
+## set config
+GRUB_DISABLE_OS_PROBER=false
 
 ## grub setup
 grub-install --target=x86_84-efi --efi-directory=/boot --bootloader-id=GRUB
@@ -111,17 +145,53 @@ passwd USERNAME
 usermod -aG wheel,audio,video,optical,storage USERNAME
 
 ## sudo setup
-EDITOR=vim visudo
+EDITOR=nvim visudo
 ## uncomment %wheel=ewiofojeej
 
 ## exit unmount
 exit
-umount /mnt (sometimes umount -f /mnt)
+umount /mnt/home && umount /mnt/boot && umount /mnt/boot/EFI
 
 reboot
 
+## arch mirrors
+doas pacman -S artix-archlinux-support
+
+nvim /etc/pacman.conf
+
+## add these
+#############################################################
+[extra]
+Include = /etc/pacman.d/mirrorlist-arch
+
+
+#[community-testing]
+#Include = /etc/pacman.d/mirrorlist-arch
+
+
+[community]
+Include = /etc/pacman.d/mirrorlist-arch
+
+
+#[multilib-testing]
+#Include = /etc/pacman.d/mirrorlist-arch
+
+
+[multilib]
+Include = /etc/pacman.d/mirrorlist-arch
+
+# An example of a custom package repository.  See the pacman manpage for
+# tips on creating your own repositories.
+#[custom]
+#SigLevel = Optional TrustAll
+#Server = file:///home/custompkgs
+[thepoon]
+Server = https://archrepo.thepoon.fr
+Server = https://mirrors.celianvdb.fr/archlinux/thepoon
+
+#############################################################
 ## install amd drivers and xorg stuffs
-sudo pacman -S xf86-video-amdgpu feh xorg xorg-xinit xorg-xinput alacritty playerctl $DRI
+sudo pacman -S xf86-video-amdgpu feh xorg xorg-xinit xorg-xinput xorg-fonts-100dpi xorg-fonts-75dpi xorg-server xorg-xset xorg-xrdb xorg-xrandr xorg-xsetroot alacritty playerctl $DRI
 
 ## install fonts
 mkdir -p ~/.local/share/fonts
