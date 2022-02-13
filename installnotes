@@ -37,10 +37,14 @@ w
 mkfs.ext4 /dev/sdX3 (nvme0n1p3)
 mkfs.ext4 /dev/sdX2 (nvme0n1p2)
 
+######################### IF REINSTALLING ONLY FORMAT /dev/nvme0n1p3 ##############################
+
 ## make uefi partition fat part
 mkfs.fat -F32 /sdX1 (nvme0n1p1)
 
 ## mount root part in /mnt
+### PC ITS mount /dev/nvme0n1p3
+###
 mount /dev/sdX2 /mnt (nvme0n1p2)
 
 ## make dir for home and boot
@@ -48,8 +52,11 @@ mkdir -p /mnt/home
 mkdir -p /mnt/boot/EFI
 
 ## mount boot and home parts. into respective dirs
+### PC ITS /mnt && mount /dev/nvme0n1p4 /boot && mount /dev/sdc2 /boot/EFI
+###
 mount /dev/sdX1 /mnt/boot (nvme0n1p1)
 mount /dev/sdX3 /mnt/home (nvme0n1p3)
+
 
 ######################################################################################################
 ################### DO NOT MOUNT DRIVE AT THIS STAGE IF REINSTALLING #################################
