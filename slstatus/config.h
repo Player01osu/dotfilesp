@@ -65,7 +65,7 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-	{ cpu_perc, "CPU: %s%% |",  NULL    },
+	{ cpu_perc, "CPU: %s%% |",  NULL    },
 	{ ram_used, " RAM: %s |",  NULL    },
 	{ battery_perc, " BAT: %s%% |", "BAT1" },
 	{ datetime, " (%s)",           "%a" },

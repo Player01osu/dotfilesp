@@ -1,5 +1,9 @@
 # Lines configured by zsh-newuser-install
 ### EXPORT
+
+export EDITOR="neovim"
+export SHELL="zsh"
+export PF_INFO="ascii title os kernel shell editor pkgs memory"
 export TERM="xterm-256color"                      # getting proper colors
 export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
 ##export EDITOR="vim -t -a ''"              # $EDITOR use Emacs in terminal
@@ -11,6 +15,7 @@ export WINEARCH=win32 # Only needed when executing the first command with that W
 # Arch Linux/wine-osu users should uncomment next line
 # to update PATH to make sure we're using the right Wine binary
 export PATH=/opt/wine-osu/bin:$PATH
+
 
 
 # zsh-autocomplete plugin
@@ -61,7 +66,7 @@ bindkey -s '^o' 'lfcd\n'
 #PROMPT='%F{green}%n%f@%F{blue}%m%f %F{magenta}%B%~%b%f %# '
 #RPROMPT='[%F{yellow}%?%f]'
 autoload -U colors && colors
-PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
+PS1="%B%{$fg[blue]%}[%{$fg[magenta]%}%n%{$fg[blue]%}@%{$fg[magenta]%}%M %{$fg[blue]%}%~%{$fg[blue]%}]%{$reset_color%}$%b "
 
 
 ### PATH
@@ -93,9 +98,15 @@ alias nvimconf="nvim ~/.config/nvim/init.vim"
 alias vim="nvim"
 alias dwm-conf="cd ~/gitclone/suckless/dwm-fork/ && nvim ~/gitclone/suckless/dwm-fork/config.def.h"
 alias osu-dir="cd ~/.local/share/osu-wine/OSU/"
-alias skool="cd ~/Documents/School/"
+alias skool="cd ~/Documents/school/"
 alias xinitrc="nvim ~/.xinitrc"
-neofetch
+alias codef="cd ~/Documents/code"
+alias todo="nvim ~/todo.md"
+alias vi="nvim"
+alias l="ls -Ao1v --color=auto"
+alias ls="ls -Av --color=auto"
+#neofetch
+pfetch
 #acpi
 
 
